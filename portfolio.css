@@ -1,7 +1,6 @@
 body{
-    /* background-image: url(/images/MKBHD.png);
-    background-size: 150%; */
-    background-image: url("https://bhaveymittal.github.io/images/MKBHD.png");
+    background-image: url(/images/MKBHD.png);
+    background-size: 150%;
     margin: 20px;
     color: white;
 }
