@@ -1,0 +1,214 @@
+body{
+    background-image: url(MKBHD.png);
+    background-size: 150%;
+    margin: 20px;
+    color: white;
+}
+.a{
+    list-style-type: none;
+    margin: 10px 0px 40px;
+    border-radius: 20px;
+    padding: 0;
+    overflow: hidden;
+    font-size: x-large;
+    top: 0;
+    width: 97%;
+    background-color: white;
+}
+.bar{
+    float: left;
+} 
+.bar a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.bar a:hover{
+  color: white;  
+  background-color: blue;
+}
+#home{
+    padding:30px;
+    margin-top: 80px;
+    margin-right: 500px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color:rgb(95, 95, 95) ;
+    opacity: 0.75;
+    height: auto;
+    text-align: left;
+    color:black;
+    text-shadow: #111;
+    font-size: xx-large;
+}
+
+#about{
+    padding:30px;
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color:rgb(95, 95, 95);
+    opacity: 0.75;
+    text-align: right;
+    height: auto;
+    font-size: xx-large;
+    color: black;
+}
+#about:hover{
+  opacity: 1;
+  font-style: oblique;
+}
+#home:hover{
+  opacity: 1;
+  font-style: oblique;
+}
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background:rgb(95, 95, 95);      /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: black;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(95, 95, 95) ;  /* creates padding around scroll thumb */
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    color: black;
+    background-color: rgb(95, 95, 95);
+    opacity: 0.80;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    font-size: x-large;
+  }
+  .content:hover{
+    opacity: 1;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .more a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5vw;
+  }
+  .more a:hover{
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+  }
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 1.0vw;
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  input[type=email], select, textarea {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 1.0vw;
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  input[type=submit] {
+    margin-left: 40%;
+    background-color: blue;
+    opacity: 0.7;
+    color: black;
+    padding: 12px 20px;
+    font-size: 1.0vw;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    opacity: 1;
+  }
+  .container {
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    width: 25%;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .bottom{
+    padding: 20px;
+    margin: 40px;
+    border-radius: 20px;
+    background-color: rgb(95, 95, 95);
+    opacity: 0.8;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5vw;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: black;
+  }
