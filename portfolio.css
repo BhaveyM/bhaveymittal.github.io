@@ -1,47 +1,54 @@
 body{
-    background-image: url(images/MKBHD.png);
-    background-size: 150%;
+    /* background-image: url(images/MKBHD.png);
+    background-size: 150%; */
+    background-color: black;
     margin: 20px;
     color: white;
 }
 .a{
     list-style-type: none;
     margin: 10px 0px 40px;
-    border-radius: 20px;
     padding: 0;
     overflow: hidden;
-    font-size: x-large;
+    font-size: xx-large;
     top: 0;
-    width: 97%;
-    background-color: white;
+    color: #f0f0f0;
 }
 .bar{
-    float: left;
+    float: right;
 } 
 .bar a{
     display: block;
-    color: black;
+    color: #f0f0f0;
     text-align: center;
     padding: 14px 16px;
+    margin-right: 10px;
     text-decoration: none;
+    font-family: 'Satisfy', cursive;
 }
 .bar a:hover{
-  color: white;  
-  background-color: blue;
+  /* background-color: red;  */
+  border: 1px solid;
+  box-shadow: 5px 10px red;
 }
 #home{
     padding:30px;
-    margin-top: 80px;
-    margin-right: 500px;
+    margin-top: 60px;
+    border: 1px solid;
+    box-shadow: 14px 21px red;
+    /* margin-right: 500px;
     margin-left: 20px;
-    border-radius: 20px;
-    background-color:rgb(95, 95, 95) ;
-    opacity: 0.75;
+    border-radius: 20px; */
+    /* background-color: rgb(41, 41, 41); */
+    display: block;
     height: auto;
+    width: fit-content;
+    transition-property: all;
+    transition-duration: 2s;
     text-align: left;
-    color:black;
-    text-shadow: #111;
+    color:#f0f0f0;
     font-size: xx-large;
+    font-family: 'Merienda', cursive;
 }
 
 #about{
@@ -54,6 +61,7 @@ body{
     opacity: 0.75;
     text-align: right;
     height: auto;
+    width: fit-content;
     font-size: xx-large;
     color: black;
 }
@@ -62,8 +70,8 @@ body{
   font-style: oblique;
 }
 #home:hover{
-  opacity: 1;
-  font-style: oblique;
+  /* background-color: red; */
+  box-shadow: 150px 200px red;
 }
 body::-webkit-scrollbar {
     width: 12px;               /* width of the entire scrollbar */
