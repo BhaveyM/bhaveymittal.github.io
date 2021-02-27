@@ -4,6 +4,7 @@ body{
     background-color: black;
     margin: 20px;
     color: white;
+    font-family: 'Merienda', cursive;
 }
 .a{
     list-style-type: none;
@@ -21,7 +22,7 @@ body{
     display: block;
     color: #f0f0f0;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     margin-right: 10px;
     text-decoration: none;
     font-family: 'Satisfy', cursive;
@@ -36,10 +37,6 @@ body{
     margin-top: 60px;
     border: 1px solid;
     box-shadow: 14px 21px red;
-    /* margin-right: 500px;
-    margin-left: 20px;
-    border-radius: 20px; */
-    /* background-color: rgb(41, 41, 41); */
     display: block;
     height: auto;
     width: fit-content;
@@ -52,39 +49,38 @@ body{
 }
 
 #about{
-    padding:30px;
-    margin-left: 400px;
-    margin-top: 50px;
-    margin-right: 20px;
-    border-radius: 20px;
-    background-color:rgb(95, 95, 95);
-    opacity: 0.75;
-    text-align: right;
-    height: auto;
-    width: fit-content;
-    font-size: xx-large;
-    color: black;
+  padding:30px;
+  margin-top: 60px;
+  border: 1px solid;
+  box-shadow: 14px 21px red;
+  display: block;
+  height: auto;
+  width: fit-content;
+  transition-property: all;
+  transition-duration: 2s;
+  text-align: right;
+  color:#f0f0f0;
+  font-size: xx-large;
+  font-family: 'Merienda', cursive;
 }
 #about:hover{
-  opacity: 1;
-  font-style: oblique;
+  box-shadow: 150px 200px red;
 }
 #home:hover{
-  /* background-color: red; */
   box-shadow: 150px 200px red;
 }
 body::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
+    width: 15px;               /* width of the entire scrollbar */
   }
   
   body::-webkit-scrollbar-track {
-    background:rgb(95, 95, 95);      /* color of the tracking area */
+    background:black;      /* color of the tracking area */
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: black;    /* color of the scroll thumb */
+    background-color: red;    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid rgb(95, 95, 95) ;  /* creates padding around scroll thumb */
+    border: 3px solid black;  /* creates padding around scroll thumb */
   }
   * {
     box-sizing: border-box;
@@ -113,18 +109,20 @@ body::-webkit-scrollbar {
   
   /* Content */
   .content {
-    color: black;
-    background-color: rgb(95, 95, 95);
-    opacity: 0.80;
-    border-radius: 20px;
+    color: #f0f0f0;
+    background-color:black;
     padding-left: 20px;
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 5px;
+    border: 1px solid;
     font-size: x-large;
+    font-family: 'Merienda', cursive;
+    transition-property: all;
+    transition-duration: 1s;
   }
   .content:hover{
-    opacity: 1;
+    box-shadow: 14px 21px red;
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
@@ -142,74 +140,84 @@ body::-webkit-scrollbar {
   }
   .more a{
     display: block;
-    color: black;
+    color: #f0f0f0;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 1.5vw;
+    font-size: large;
   }
   .more a:hover{
-    color: white;
-    background-color: blue;
+    background-color: red;
     border-radius: 20px;
   }
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: white;
-    color: black;
-    font-size: 1.0vw;
+  #contact{
+    text-align: left;
+    font-size: x-large;
+    border: 7px solid red;
+  }
+  input[type=text], select, textarea {
+    width: fit-content;
+    padding: 15px;
+    background-color: black;
+    color: #f0f0f0;
+    font-size:x-large;
+    font-family: 'Merienda', cursive;
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px;
     margin-bottom: 16px;
+    border: 1px solid;
+    box-shadow: 3px 10px red;
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
   input[type=email], select, textarea {
-    width: 100%;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: white;
-    color: black;
-    font-size: 1.0vw;
+    width: fit-content;
+    padding: 15px;
+    background-color: black;
+    color: #f0f0f0;
+    font-size: x-large;
+    font-family: 'Merienda', cursive;
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px;
     margin-bottom: 16px;
+    border: 1px solid;
+    box-shadow: 3px 10px red;
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
 
   input[type=submit] {
-    margin-left: 40%;
-    background-color: blue;
-    opacity: 0.7;
-    color: black;
-    padding: 12px 20px;
-    font-size: 1.0vw;
-    border: none;
-    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: large;
+    font-family: 'Merienda', cursive;
+    margin: 4px 2px;
+    transition-duration: 0.6s;
     cursor: pointer;
+    background-color: black; 
+    color: #f0f0f0; 
+    border: 3px solid red;
+    font-family: 'Merienda', cursive;
   }
 
   input[type=submit]:hover {
-    opacity: 1;
+    background-color: red;
+    color: #f0f0f0;
   }
   .container {
     margin-left: 37.5%;
     margin-right: 37.5%;
-    width: 25%;
+    width: fit-content;
     border-radius: 20px;
     padding: 20px;
   }
   .bottom{
     padding: 20px;
     margin: 40px;
-    border-radius: 20px;
-    background-color: rgb(95, 95, 95);
-    opacity: 0.8;
+    background-color: black;
     text-align: center;
-    color: black;
-    font-weight: bolder;
-    font-size: 1.5vw;
+    color: #f0f0f0;
+    font-size: x-large;
   }
   .fa {
     padding: 20px;
@@ -217,6 +225,24 @@ input[type=text], select, textarea {
     width: 30px;
     text-align: center;
     text-decoration: none;
+    margin: 5px 2px;
     border-radius: 50%;
-    color: black;
   }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+    
