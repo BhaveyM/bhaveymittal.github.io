@@ -218,6 +218,8 @@ body::-webkit-scrollbar {
     text-align: center;
     color: #f0f0f0;
     font-size: x-large;
+    border: 1px solid;
+    box-shadow: 14px 21px red;
   }
   .fa {
     padding: 20px;
