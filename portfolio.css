@@ -1,6 +1,7 @@
 body{
-    background-image: url(/images/MKBHD.png);
-    background-size: 150%;
+    /* background-image: url(/images/MKBHD.png);
+    background-size: 150%; */
+    background-color: black;
     margin: 20px;
     color: white;
 }
