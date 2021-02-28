@@ -207,7 +207,7 @@ body::-webkit-scrollbar {
   .container {
     margin-left: 37.5%;
     margin-right: 37.5%;
-    width: fit-content;
+    width:auto;
     border-radius: 20px;
     padding: 20px;
   }
@@ -215,6 +215,7 @@ body::-webkit-scrollbar {
     padding: 20px;
     margin: 40px;
     background-color: black;
+    width: auto;
     text-align: center;
     color: #f0f0f0;
     font-size: x-large;
@@ -224,7 +225,7 @@ body::-webkit-scrollbar {
   .fa {
     padding: 20px;
     font-size: 30px;
-    width: 30px;
+    width: auto;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
